@@ -61,10 +61,8 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
-  sum = hit?(initial_round)
-  display_card_total(sum)
-  while display_card_total(sum) < 21
+  card_sum = initial_round
+  while card_sum < 21
     hit?(sum)
   break if display_card_total(sum) > 21
     end_game(sum) 
