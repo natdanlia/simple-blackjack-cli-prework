@@ -68,5 +68,6 @@ def runner
     hit?(sum)
   break if display_card_total(sum) > 21
     end_game(sum) 
+  end
 end
     
