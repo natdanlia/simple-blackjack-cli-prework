@@ -62,11 +62,6 @@ def runner
   # code runner here
   welcome
   initial_round
-  hit?(initial_round) 
-  while hit?(initial_round) < 21
-    hit?(initial_round)
-  break if hit(initial_round) > 21
-    end_game(hit(initial_round))
-  end
+ 
 end
     
