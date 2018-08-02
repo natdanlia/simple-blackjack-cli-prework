@@ -67,5 +67,6 @@ def runner
     hit?(initial_round)
   break if hit(initial_round) > 21
     end_game(hit(initial_round))
+  end
 end
     
