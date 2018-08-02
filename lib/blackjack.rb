@@ -59,7 +59,6 @@ end
 #####################################################
 
 def runner
-  # code runner here
   welcome
   card_sum = initial_round
   while card_sum > 21
