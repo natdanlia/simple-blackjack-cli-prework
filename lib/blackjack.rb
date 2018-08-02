@@ -65,6 +65,7 @@ def runner
   hit?(initial_round) 
   while hit?(initial_round) < 21
     hit?(initial_round)
-  break if    
+  break if hit(initial_round) > 21
+    
 end
     
