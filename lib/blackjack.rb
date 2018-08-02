@@ -59,13 +59,12 @@ end
 #####################################################
 
 def runner
-  # code runner here
   welcome
-  card_sum = initial_round
-  while card_sum > 21
-    card_sum = hit?(card_sum)
-    display_card_total(card_sum)
+  card_total = initial_round
+  until card_total > 21
+    card_total = hit?(card_total)
+    display_card_total(card_total)
   end
-    end_game(card_sum)
+  end_game(card_total)
 end
     
