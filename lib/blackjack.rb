@@ -64,6 +64,8 @@ def runner
   card_sum = initial_round
   while card_sum > 21
     hit?(card_sum)
+    display_card_total(hit?(card_sum))
   end
+  end_game
 end
     
